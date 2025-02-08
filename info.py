@@ -17,7 +17,7 @@ BOT_TOKEN = environ.get('BOT_TOKEN', "8113392400:AAEXQ9LEe_xKBjunzf6wpmBhLGaIiU6
 
 
 # This Pictures Is For Start Message Picture, You Can Add Multiple By Giving One Space Between Each.
-PICS = (environ.get('PICS', 'https://graph.org/file/ce1723991756e48c35aa1.jpg')).split()
+PICS = (environ.get('PICS', 'https://envs.sh/6Jt.jpg')).split()
 
 
 # Admins & Users
@@ -41,7 +41,7 @@ auth_channel = environ.get('AUTH_CHANNEL', '') # give your force subscribe chann
 AUTH_CHANNEL = int(auth_channel) if auth_channel and id_pattern.search(auth_channel) else None
 
 # This Channel Is For When User Request Any File Name With command or hashtag like - /request or #request
-reqst_channel = environ.get('REQST_CHANNEL', '')
+reqst_channel = environ.get('REQST_CHANNEL', '-1002325269429')
 REQST_CHANNEL = int(reqst_channel) if reqst_channel and id_pattern.search(reqst_channel) else None
 
 # This Channel Is For Index Request 
